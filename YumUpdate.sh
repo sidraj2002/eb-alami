@@ -9,14 +9,14 @@ set -xe
     _YumRepoFile='amzn-updates.repo'
 
     #SourceFilePaths#
-    _YumRepoFilePath='/home/ec2-user/Replace/tmp/yum.repos.d/'
-    _YumConfFilePath='/home/ec2-user/Replace/tmp/'
+    _YumRepoFilePath='/tmp/yum.repos.d/'
+    _YumConfFilePath='/tmp/'
     #_DefaultYumConfFile='/etc/yum.conf'
     #_DefaultYumRepoFile='/etc/yum.repos.d/amzn-updates.repo'
 
     #OriginalFilePaths#
-    _DefaultYumConfFilePath='/home/ec2-user/Replace/etc/'
-    _DefaultYumRepoFilePath='/home/ec2-user/Replace/etc/yum.repos.d/'
+    _DefaultYumConfFilePath='/etc/'
+    _DefaultYumRepoFilePath='/etc/yum.repos.d/'
 
     #StagingFilePaths#
     _StagingYumConfFilePath='/home/ec2-user/Replace/Staging/'
